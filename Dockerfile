@@ -8,7 +8,7 @@ RUN add-apt-repository -y 'ppa:openjdk-r/ppa'
 RUN add-apt-repository -y 'deb https://cran.rstudio.com/bin/linux/ubuntu/ trusty/'
 RUN add-apt-repository -y 'ppa:nginx/stable'
 RUN apt-get -y update --allow-unauthenticated
-RUN apt-get install -y --force-yes --no-install-recommends openjdk-8-jre r-base-dev r-base python-django python-pip build-essential python-dev python-oauth2 python-googleapi supervisor openssh-server pwgen sudo vim-tiny net-tools lxde x11vnc x11vnc-data xvfb gtk2-engines-murrine ttf-ubuntu-font-family nginx python-pip python-dev build-essential mesa-utils libgl1-mesa-dri
+RUN apt-get install -y --force-yes --no-install-recommends python3-pip python3-dev python3-tk openjdk-8-jre r-base-dev r-base python-django python-pip build-essential python-dev python-oauth2 python-googleapi supervisor openssh-server pwgen sudo vim-tiny net-tools lxde x11vnc x11vnc-data xvfb gtk2-engines-murrine ttf-ubuntu-font-family nginx python-pip python-dev build-essential mesa-utils libgl1-mesa-dri
 #GUIdock.json
 #cynetwork_bma.json
 #cytoscape_3_3.json
